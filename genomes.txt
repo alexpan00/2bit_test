@@ -2,3 +2,4 @@ genome mm39
 trackDb https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/trackDb.txt
 groups https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/groups.txt
 twoBitPath https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/mm39_SIRV.2bit
+organism ratoncillo
