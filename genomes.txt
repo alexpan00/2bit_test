@@ -3,3 +3,7 @@ trackDb https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/trackDb.
 groups https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/groups.txt
 twoBitPath https://raw.githubusercontent.com/alexpan00/2bit_test/main/mm39/mm39_SIRV.2bit
 organism ratoncillo
+defaultPos SIRV1:1-5000
+orderKey 4800
+scientificName Mus musculoso
+htmlPath https://raw.githubusercontent.com/alexpan00//hub_2bit/mm39_sqanti3_track.html
