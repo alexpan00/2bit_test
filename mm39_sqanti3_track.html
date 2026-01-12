@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mm39 SQANTI3 Transcripts</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f8f9fa; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { color: #333; border-bottom: 2px solid #6BAED6; padding-bottom: 10px; }
+        h2 { color: #495057; margin-top: 25px; }
+        h3 { color: #6c757d; margin-top: 20px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        code { background-color: #e9ecef; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+        .color-box { display: inline-block; width: 16px; height: 16px; margin-right: 8px; vertical-align: middle; border-radius: 3px; }
+        table { border-collapse: collapse; width: 100%; margin: 15px 0; }
+        th, td { border: 1px solid #dee2e6; padding: 10px; text-align: left; }
+        th { background-color: #e9ecef; font-weight: 600; }
+        .filter-values { font-family: monospace; font-size: 0.85em; color: #495057; }
+        .tip { background-color: #d1ecf1; border-left: 4px solid #17a2b8; padding: 10px 15px; margin: 15px 0; border-radius: 0 4px 4px 0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>SQANTI3 Transcripts (mm39)</h1>
+    <p>This track displays <strong>445530</strong> SQANTI3 transcript models. Colors indicate structural category.</p>
+    
+    <h2>How to Filter</h2>
+    <div class="tip">
+        <strong>Tip:</strong> Right-click on the track and select "Configure" to access all filters. 
+        Use <code>*</code> as a wildcard in text filters (e.g., <code>FSM*</code> matches FSMA, FSMB, FSMC, FSMD).
+    </div>
+    
+    <h2>Available Filters</h2>
+    <p>All filters available for this track:</p>
+    
+<table>
+    <tr><th>Filter</th><th>Type</th><th>Values / Range</th></tr>
+    <tr><td><strong>Transcript length (bp)</strong></td><td>📊 Slider</td><td>Data range: 80 to 14353</td></tr>
+    <tr><td><strong>Number of exons</strong></td><td>📊 Slider</td><td>Data range: 1 to 77</td></tr>
+    <tr><td><strong>Structural Category</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>incomplete-splice_match</code> (182414)<br><code>full-splice_match</code> (90803)<br><code>novel_not_in_catalog</code> (79455)<br><code>novel_in_catalog</code> (49071)<br><code>genic_intron</code> (16065)<br><code>genic</code> (14233)<br><code>antisense</code> (6304)<br><code>intergenic</code> (4459)<br><code>fusion</code> (2726)</td></tr>
+    <tr><td><strong>Associated Gene</strong></td><td>🔤 Text</td><td>42885 unique values. Use wildcards like <code>*</code></td></tr>
+    <tr><td><strong>Associated Transcript</strong></td><td>🔤 Text</td><td>50634 unique values. Use wildcards like <code>*</code></td></tr>
+    <tr><td><strong>Reference transcript length</strong></td><td>📊 Slider</td><td>Data range: 43 to 1796232</td></tr>
+    <tr><td><strong>Reference exon count</strong></td><td>📊 Slider</td><td>Data range: 1 to 172</td></tr>
+    <tr><td><strong>Distance to reference TSS</strong></td><td>📊 Slider</td><td>Data range: -2388988 to 5744</td></tr>
+    <tr><td><strong>Distance to reference TTS</strong></td><td>📊 Slider</td><td>Data range: -1936913 to 9298</td></tr>
+    <tr><td><strong>Distance to gene TSS</strong></td><td>📊 Slider</td><td>Data range: -2056966 to 445625</td></tr>
+    <tr><td><strong>Distance to gene TTS</strong></td><td>📊 Slider</td><td>Data range: -2654633 to 814715</td></tr>
+    <tr><td><strong>Subcategory</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>mono-exon</code> (104223)<br><code>3prime_fragment</code> (94293)<br><code>at_least_one_novel_splicesite</code> (73643)<br><code>intron_retention</code> (35103)<br><code>alternative_5end</code> (27222)<br><code>alternative_3end5end</code> (24719)<br><code>5prime_fragment</code> (17635)<br><code>reference_match</code> (17514)<br><code>alternative_3end</code> (15637)<br><code>combination_of_known_splicesites</code> (14611)<br><code>combination_of_known_junctions</code> (7309)<br><code>multi-exon</code> (5780)<br><code>mono-exon_by_intron_retention</code> (4403)<br><code>internal_fragment</code> (3438)</td></tr>
+    <tr><td><strong>RTS Stage</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>False</code> (396843)<br><code>True</code> (48687)</td></tr>
+    <tr><td><strong>All Canonical Splice Sites</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>canonical</code> (314000)<br><code>non_canonical</code> (22904)</td></tr>
+    <tr><td><strong>Minimum sample coverage</strong></td><td>📊 Slider</td><td>Data range: 0 to 5</td></tr>
+    <tr><td><strong>Minimum junction coverage</strong></td><td>📊 Slider</td><td>Data range: 0 to 191421</td></tr>
+    <tr><td><strong>Minimum Coverage Position</strong></td><td>🔤 Text</td><td>60 unique values. Use wildcards like <code>*</code></td></tr>
+    <tr><td><strong>Coverage standard deviation</strong></td><td>📊 Slider</td><td>Data range: 0 to 95710</td></tr>
+    <tr><td><strong>Full-length read count</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Number of indels</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Number of indels at junctions</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>BITE Status</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>False</code> (296971)<br><code>True</code> (39933)</td></tr>
+    <tr><td><strong>Isoform expression (TPM)</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Gene expression (TPM)</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Expression ratio (isoform/gene)</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>FSM Class</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>C</code> (388956)<br><code>B</code> (31088)<br><code>A</code> (25486)</td></tr>
+    <tr><td><strong>Coding Status</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>non_coding</code> (445530)</td></tr>
+    <tr><td><strong>ORF length (aa)</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>CDS length (bp)</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>CDS start position</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>CDS end position</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Percent A downstream of TTS</strong></td><td>📊 Slider</td><td>Data range: 0 to 100</td></tr>
+    <tr><td><strong>Distance to CAGE peak</strong></td><td>📊 Slider</td><td>Data range: -10042 to 97</td></tr>
+    <tr><td><strong>Within CAGE Peak</strong></td><td>📋 Dropdown</td><td class="filter-values"><code>False</code> (298961)<br><code>True</code> (146569)</td></tr>
+    <tr><td><strong>Distance to polyA site</strong></td><td>📊 Slider</td><td>Data range: -152 to 99</td></tr>
+    <tr><td><strong>PolyA distance</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>TSS ratio</strong></td><td>📊 Slider</td><td>Data range: nan to nan</td></tr>
+    <tr><td><strong>Number of exons (from BED)</strong></td><td>📊 Slider</td><td>Range: 0 to 200</td></tr>
+    </table>
+    
+    <h2>Color Legend</h2>
+    <table>
+        <tr><th>Category</th><th>Color</th></tr>
+        <tr><td><span class="color-box" style="background-color: #6BAED6;"></span>Full-splice match (FSM)</td><td>#6BAED6</td></tr>
+        <tr><td><span class="color-box" style="background-color: #FC8D59;"></span>Incomplete-splice match (ISM)</td><td>#FC8D59</td></tr>
+        <tr><td><span class="color-box" style="background-color: #78C679;"></span>Novel in catalog (NIC)</td><td>#78C679</td></tr>
+        <tr><td><span class="color-box" style="background-color: #EE6A50;"></span>Novel not in catalog (NNC)</td><td>#EE6A50</td></tr>
+        <tr><td><span class="color-box" style="background-color: #969696;"></span>Genic</td><td>#969696</td></tr>
+        <tr><td><span class="color-box" style="background-color: #66C2A4;"></span>Antisense</td><td>#66C2A4</td></tr>
+        <tr><td><span class="color-box" style="background-color: #DAA520;"></span>Fusion</td><td>#DAA520</td></tr>
+        <tr><td><span class="color-box" style="background-color: #E9967A;"></span>Intergenic</td><td>#E9967A</td></tr>
+        <tr><td><span class="color-box" style="background-color: #41B6C4;"></span>Genic intron</td><td>#41B6C4</td></tr>
+    </table>
+</div>
+</body>
+</html>

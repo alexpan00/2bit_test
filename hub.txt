@@ -1,0 +1,6 @@
+hub hub2_mm39_SQANTI3_Hub
+shortLabel hub2_mm39_SQANTI3_Hub
+longLabel SQANTI3 Transcriptome Analysis for mm39
+genomesFile https://raw.githubusercontent.com/alexpan00/2bit_test/main/genomes.txt
+email alexpan00@users.noreply.github.com
+descriptionUrl https://raw.githubusercontent.com/alexpan00/2bit_test/main/README.md
